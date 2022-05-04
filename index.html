@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>call</title>
+
+    <style>
+
+        body{
+            background-color: rgb(94, 91, 91);
+
+        }
+        article{
+        
+            background-image: url("https://w7.pngwing.com/pngs/353/463/png-transparent-iphone-6-iphone-4s-app-store-smartphone-gadget-electronics-rectangle-thumbnail.png");
+            background-size:cover;
+            width: 25rem;
+            height:45rem;
+            margin:0 auto;
+
+        }
+
+       .absolute >img {
+           position: absolute;
+           width: 100px;
+           height: 100px;
+           z-index:1;
+           top:90px;
+           right:780px;
+           border: 3px solid white;
+           
+          
+       }
+       .relative >img {
+           top:75px;
+           left:105px;
+           position: relative;
+           width: 63%;
+       }
+
+
+        p{
+            text-align: center;
+            z-index: 1;
+            position:relative;
+            background-color: rgba(241, 57, 57, 0.822);
+            color: white;
+            width: 60%;
+            height:3rem;
+            padding:8px;
+            left:100px;
+            top:50px;
+            border-radius: 2%;
+        }
+
+
+    </style>
+</head>
+<body>
+
+
+    <article>
+
+    <div class="absolute">
+<img src="/images/woman.png" alt="woman">
+
+    </div>
+
+    <div class="relative">
+        <img src="/images/man.jpg" alt="man">
+    </div>
+
+    <p><b>END CALL</b></p>
+
+</article>
+</body>
+</html>
